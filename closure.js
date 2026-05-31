@@ -19,6 +19,6 @@ const counter = () => {
     }
 }
 
-const add = counter();
+const add = counter(); // increase counter
 
 add();
