@@ -22,3 +22,16 @@ const counter = () => {
 const add = counter(); // increase counter
 
 add();
+
+const userInfo = () => {
+    let name = "bola nabil";
+
+    return function getName() {
+        console.log(name);
+    }
+
+    getName();
+};
+
+const nameUser = userInfo();
+nameUser();
