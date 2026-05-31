@@ -20,3 +20,5 @@ const counter = () => {
 }
 
 const add = counter();
+
+add();
